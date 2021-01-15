@@ -1,0 +1,158 @@
+body{
+    width: 1100px;
+    margin: 0 auto;
+    max-width: 90%;
+    font-family: 'Hind Madurai', sans-serif;
+}
+p{
+    color:#3E3E3E;
+}
+h1{
+    font-size:35px; 
+}
+.orange-highlight{
+    color: #FABE4C;
+}
+.blue-highligh{
+    color:#363958;
+}
+
+
+.header{
+    display: flex;
+    padding-top: 30px;
+}
+ul{
+    text-align: end;
+    margin-left: 300px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    margin-left: 30px;
+    color:hsl(0, 2%, 24%);
+}
+.logo img{
+    width: 300px;
+}
+
+
+.home{
+    display:flex;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.top-section h1{
+    font-size: 50px;
+    line-height: 10px;
+}
+.button{
+    margin-top:40px ;
+}
+.link-button{
+    text-decoration: none;
+    background-color:#A4BC46;
+    color: white;
+    border-radius:8px;
+    padding: 12px 20px 12px 40px;
+    font-weight: 700;
+}
+.cart{
+    position: relative;
+    right: 125px;
+    color: white;
+}
+.top-image img{
+    height: 400px;
+    width: auto;
+    padding-left:100px;
+}
+
+
+.image-section img{
+    height: 273px;
+    width: 250px;
+    padding: 25px 25px;
+    background-color:#F1F1F1;
+    border-radius: 15px;
+}
+.porduct-holder{
+    box-shadow: 0px 10px 50px rgb(219, 219, 219);
+    border-radius: 15px;
+    padding:20px 0px;
+    padding-left:20px ;
+    padding-right: 45px;
+    width: 280px;
+    line-height: 90%;
+}
+.section-divided{
+    float: left;
+    width: 25%;
+    margin-left:2%;
+}
+.price-sec{
+    display: flex;
+}
+.ps{
+    position: relative;
+    left: 82px;
+    bottom: 20px;
+}
+
+
+
+
+.logo-image img{
+    height: 80px;
+    width: 80px;
+    padding-top :15px ;
+
+}
+.perfect-fit{
+    display: flex;
+    width: 500px;
+    margin-bottom: 2%;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+.policy{
+    line-height: 20px;
+    padding-left:30px;
+}
+.other img{
+    height:350px;
+    width: 500px;
+    padding-left: 80px;
+}
+.container{
+    display: flex;
+    width: 1100px;
+    margin-bottom:100px;
+}
+
+
+
+/* .home{
+    grid-template-columns:repeat(2,1fr);
+}
+.women-section, .men-section{
+    grid-template-columns:repeat(3,1fr);
+}
+@media(max-width:992px){
+    .home{
+    grid-template-columns: repeat(1,1fr)
+    }
+    .women-section, .men-section{
+        grid-template-columns:repeat(2,1fr);
+}
+@media(max-width:668px){
+    .women-section, .men-section{
+        grid-template-columns:repeat(1,1fr);
+    }
+} */
+
+    
+
+
